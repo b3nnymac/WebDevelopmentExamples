@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta charset="utf-8"><title>Ben Mac's Site - Contact Us</title>
+   <link rel="stylesheet" href="Assignment2.css" />
+       <link rel="shortcut icon" href="images/favicon.ico" />
+
+</head>
+<body>
+<div id="centrePage">
+
+<header>
+<img src="images/green-technology-header-2.jpg" alt="heading"/>
+</header>
+ <div id="sidebar">
+ <ul>
+<li><a href="index.html">Home</a></li>
+	  <li><a href="blog.html">Blog</a></li>
+	  <li><a href="about.html">About Me</a></li>
+	  <li><a href="events.html">Bands</a></li>
+	  <li><a href="contact.html">Contact Us</a></li></ul> 
+</div>
+<h2>Who are you?</h2> 
+
+<form action="welcomePost.php" method="post">
+	
+	<label>name: </label><input type="text" name="guest" placeholder="name"/></br>
+	<label>age: </label><input type="text" name="age" placeholder="age"> </br>
+		<label>city: </label><input type="text" name="city" placeholder="city"> 
+
+	<label>province: </label> <select name="province">
+   <option value="AB">Alberta</option> 
+   <option value="BC">British Columbia</option>
+   <option value="MB">Manitoba</option> 
+   <option value="NB">New Brunswick</option>
+   <option value="NL">Newfoundland</option> 
+   <option value="NS">Nova Scotia</option>
+      <option value="NT">Northwest Territories</option>
+         <option value="NV">Nunavut</option> 
+   <option value="ON">Ontario</option> 
+   <option value="PE">Prince Edward Island</option>
+   <option value="QC">Quebec</option> 
+   <option value="SK">Saskatchewan</option> 
+      <option value="YT">Yukon</option> </select></br>
+    <label>do you like one or more of the following:</label> </br>  
+    <input type = "checkbox" id="likes" name="cheese" value="likes" />
+    <label for="id">cheese</label>
+     <input type = "checkbox" id="likes" name="bread" value="likes" />
+    <label for="id">bread</label>
+     <input type = "checkbox" id="likes" name="watermelon" value="likes" />
+    <label for="id">watermelon</label>
+    <input type = "checkbox" id="likes" name="tootsie" value="likes" />
+    <label for="id">tootsie rolls</label></br>
+    <label>What is your gender?</label>
+    <input type="radio" name="gender" id="id" value="Male" />
+    <label for="id">Male</label>
+        <input type="radio" name="gender" id="id" value="Female" />
+    <label for="id">Female</label>
+    <input type="radio" name="gender" id="id" value="other" />
+       <label for="id">Choose not to disclose</label>
+
+	<p>
+	<input type="submit" value="Ok">
+	</p>
+</form>
+
+
+
+ <footer>
+ <nav>
+ <ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="blog.html">Blog</a></li>
+	  <li><a href="about.html">About Me</a></li>
+	  <li><a href="contact.html">Contact Us</a></li>
+	  <li><a href="events.html">Upcoming Events</a></li>
+	  <li><a href="contact.html">Contact Us</a></li>
+	  </ul>
+</nav>
+</footer>
+</div>
+</body>
+</html>

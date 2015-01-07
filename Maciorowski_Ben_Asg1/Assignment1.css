@@ -1,0 +1,75 @@
+h1 {
+ font-family: Zapfino;
+ color: #6D1313;
+  background-color: #B2B1B0;
+  font-size: 90%;
+}
+
+h2 {
+ font-family: "Times new Roman", Georgia;
+ color: #6D1313;
+}
+
+h3 {
+ font-family: "Times new Roman", Georgia;
+ color: #6D1313;
+}
+
+h4 {
+ font-family: "Times new Roman", Georgia;
+ color: #000000;
+}
+
+#centrePage { margin: 10px auto 10px auto;
+width: 900px;
+border: 1px solid black;
+padding: 10px;
+background-color: white; } 
+
+nav ul li {
+   list-style: none;
+   display: inline;
+   margin: 1em; 
+}
+
+a:link {
+color: #B2B1B0;
+}
+
+a:hover {
+ color: #6D1313;
+  background-color: #B2B1B0;
+  padding: .5em;
+  }
+
+.footer {
+ background-color: #B2B1B0;
+ text-align: center;
+}
+
+.resize {
+width: 5%;
+height : auto;
+}
+#eiffelResize {
+width: 25%;
+height : auto;
+}
+
+a.footertop:link {
+color: #6D1313;
+}
+a.footertop:hover {
+color: white;
+  background-color: #6D1313;
+  padding: .5em;
+  }
+
+a.footer{
+color: white;
+}
+
+a.footer:hover {
+
+  background-color: #6D1313;
+  }
